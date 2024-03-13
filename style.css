@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.profile{
+    height: 100vh;
+    width: 100%;
+    background:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block ;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+nav ul li a:hover{
+    color: rgb(211, 73, 73);
+}
+.separator {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0;
+}
+.info{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.info h1{
+    font-size: 70px;
+    color:whitesmoke;
+}
+.info h1 span{
+    color:blue;
+}
+.info p{
+    color: white;
+}
+.info p span{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-img{
+    width:45%;
+    height: 80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+}
+.right-img img{
+    height: 100%;
+    position: absolute;
+    left : 50%;
+    bottom: 0;
+    transform: translateX(-10%);
+}
+.right-img:hover.shape{
+    left:50%;
+}
+.right-img:hover.myimg{
+    left:50%;
+    bottom:50%;
+}
+.skills{
+    color:aliceblue;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.skills h2{
+    color:blue;
+    margin-left: -3%;
+}
+.social{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.social a{
+    font-size: 35px;
+    color:whitesmoke;
+    margin-right: 20px;
+}
+.social a:hover{
+    color:blue;
+}
